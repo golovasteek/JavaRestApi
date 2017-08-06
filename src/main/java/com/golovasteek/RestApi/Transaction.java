@@ -1,8 +1,6 @@
 package com.golovasteek.RestApi;
 
-import java.math.BigInteger;
-
-class Transaction {
-    double amount;
-    BigInteger timestamp;
+public class Transaction {
+    public double amount;
+    public long timestamp;
 }

@@ -5,11 +5,12 @@ import org.glassfish.jersey.test.JerseyTest;
 import org.junit.Assert;
 import org.junit.Test;
 import javax.ws.rs.core.Application;
+import javax.ws.rs.core.Response;
 
 public class EmptyStatisticsTest extends JerseyTest {
-    @Override
-    protected Application configure() {
-        return new ResourceConfig(StatisticsService.class);
+    public EmptyStatisticsTest()
+    {
+        super(new StatisticsService());
     }
 
     @Test

@@ -1,9 +1,9 @@
 package com.golovasteek.RestApi;
 
-class Statistics {
-    double sum;
-    double avg;
-    double max;
-    double min;
-    long count;
+public class Statistics {
+    public double sum;
+    public double avg;
+    public double max;
+    public double min;
+    public long count;
 }
