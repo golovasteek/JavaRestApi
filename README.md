@@ -1,16 +1,16 @@
 # JavaRestApi
 Example JSON statistics service with REST-like API
 
-##Build and test
+## Build and test
 maven is needed to build and run test.
-```
+```bash
 mvn test
 ```
 Will download all dependencies, build the project and execute test.
 
 To run debug version of the service:
 
-```
+```bash
 mvn assembly:single
 java -jar target/*-jar-with-dependencies.js
 ```
